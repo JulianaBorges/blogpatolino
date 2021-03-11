@@ -50,6 +50,7 @@ img{  /* para mantem a imagem reposiva*/
 
 .menu-bg{
 	background: #fec63e;
+	
 }
 .menu {
 	max-width: 960px;
@@ -75,7 +76,7 @@ img{  /* para mantem a imagem reposiva*/
 	flex-wrap: wrap;
 }
 .menu-nav a{
-	font-size: 1.4em;
+	font-size: 2em;
 	display:block;
 	padding:15px
 }
@@ -115,7 +116,7 @@ img{  /* para mantem a imagem reposiva*/
 .sobre-info p{
 	font-size:1.25em;
 	line-height:1.4;
-	margim-bottom:1em;
+	margin-bottom:1em;
 	color:#7c7c7c;
 }
 .sobre-img {
