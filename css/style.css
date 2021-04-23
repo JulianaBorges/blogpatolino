@@ -167,10 +167,12 @@ margin: 0px	10px 60px 10px;
 
 .preco {
 	background:#f7f7f7;
-	padding: 100px; 
+	max-width: 960px;
+    margin: 60px auto;
+	padding: 20px; 
 	display:flex;
 	flex-wrap:wrap;
-	align-itens: flex-end;		
+	align-items: flex-end;		
 }
 
 .preco-item{ /* bordas do item*/
@@ -200,12 +202,12 @@ margin: 0px	10px 60px 10px;
 	font-size: 1.5rem;
 }
 .preco-item ul {
-	max-weight:300px;
+	max-width: 300px;
 	margin:20px auto;
 	font-size:1.25em;
 	line-height: 1;
 	font-style:italic;
-	color:#7c7c7c:;
+	color:#7c7c7c;
 }
 .preco-item li {   /*alinhamento dos item da lista*/
 	display:flex;
@@ -224,7 +226,7 @@ margin: 0px	10px 60px 10px;
 	border-radius: 50%;
 }
 .preco-item a{    /* botão*/
-	max-weight:300px;
+	max-width:300px;
 	display: block;
 	margin: 20px auto;
 	border:4px solid;
@@ -237,7 +239,7 @@ margin: 0px	10px 60px 10px;
 }
 @media (max-width: 800px){
 	.preco {
-		padding-left: 10 px;
+		padding-left: 10px;
 		padding-right: 10px;	
 			
 	}
@@ -266,7 +268,7 @@ margin: 0px	10px 60px 10px;
 .qualidade-item h2 {
 	font-size:2.25em;
 	color:#a4a4a4;
-	margim-bottom:20px;
+	margin-bottom:20px;
 }
 .qualidade-item h2::before{ /*marcador de texto*/
 	content: '';
@@ -312,7 +314,7 @@ margin: 0px	10px 60px 10px;
 	font-style: italic;
 	max-width: 230px;
 	color: #7c7c7c;
-	magin-bottom: 10px;
+	margin-bottom: 10px;
 	
 }
 .newsletter-form{
